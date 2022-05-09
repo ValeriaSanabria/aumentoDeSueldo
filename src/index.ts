@@ -12,7 +12,7 @@ if (sueldoActual <= 15000) {
 } else if (20001 < sueldoActual && sueldoActual <= 25000) {
   aumento = sueldoActual * 1.5;
   console.log("Ud. tiene un aumento del 5%");
-  console.log("Su sueldo pasa ser de: $" + aumento);
+  console.log("Su sueldo pasa a ser de: $" + aumento);
 } else {
   aumento = sueldoActual;
   console.log("Ud. no tiene aumento");
